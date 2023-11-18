@@ -17,6 +17,7 @@
                     <SwipeGestureRecognizer Direction="Down" Swiped="OnSwiped" />
                 </BoxView.GestureRecognizers>
             </BoxView>
+            <Label x:Name="_label" Text="You Swiped: "/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
